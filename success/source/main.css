@@ -1,0 +1,57 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Helvetica Neue",Helvetica,"Hiragino Sans GB","Microsoft YaHei",Arial,sans-serif;
+}
+ul{
+    list-style: none;
+}
+
+.container{
+    margin:0 auto;
+    max-width: 450px;
+}
+
+
+.successpic {
+    position: absolute;
+    width: 200px;
+    left: 50%;
+    margin-left: -100px;
+    margin-top: 50px;
+}
+
+.successtip {
+    position: absolute;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    width: 220px;
+    left: 50%;
+    margin-left: -110px;
+    margin-top: 270px;
+    color: rgb(87, 87, 87);
+}
+
+.successnote {
+    position: absolute;
+    font-size: 18px;
+    text-align: center;
+    width: 240px;
+    left: 50%;
+    margin-left: -120px;
+    margin-top: 300px;
+    color: rgb(151, 151, 151);
+}
+
+.button.btn-iknow {
+    position: absolute;
+    display: block;
+    width: 180px;
+    left: 50%;
+    margin-left: -90px;
+    margin-top: 390px;
+}
